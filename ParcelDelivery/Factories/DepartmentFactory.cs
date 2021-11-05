@@ -1,5 +1,4 @@
-﻿using System;
-using ParcelDelivery.Interfaces;
+﻿using ParcelDelivery.Interfaces;
 using ParcelDelivery.Models.Entities;
 
 namespace ParcelDelivery.Factories

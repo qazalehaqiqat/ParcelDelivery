@@ -1,16 +1,11 @@
-﻿using System;
-using ParcelDelivery.Interfaces;
-using ParcelDelivery.Models.Entities;
+﻿using ParcelDelivery.Interfaces;
 using ParcelDelivery.Models.Departments;
+using ParcelDelivery.Models.Entities;
 
 namespace ParcelDelivery.Factories
 {
     public class InsuranceFactory : DepartmentFactory
     {
-        public InsuranceFactory()
-        {
-        }
-
         public override IDepartment CreateDepartment()
         {
             return new Insurance();

@@ -1,5 +1,4 @@
-﻿using System;
-using ParcelDelivery.Interfaces;
+﻿using ParcelDelivery.Interfaces;
 using ParcelDelivery.Models.Departments;
 using ParcelDelivery.Models.Entities;
 
@@ -7,10 +6,6 @@ namespace ParcelDelivery.Factories
 {
     public class RegularFactory : DepartmentFactory
     {
-        public RegularFactory()
-        {
-        }
-
         public override IDepartment CreateDepartment()
         {
             return new Regular();
