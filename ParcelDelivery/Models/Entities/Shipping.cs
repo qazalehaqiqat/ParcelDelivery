@@ -9,7 +9,6 @@ namespace ParcelDelivery.Models.Entities
         public int Id { get; set; }
         public DateTime ShippingDate { get; set; }
 
-        [XmlArray("parcels")]
-        public Parcel[] Parcels { get; set; }
+        [XmlArray("parcels")] public Parcel[] Parcels { get; set; }
     }
 }
