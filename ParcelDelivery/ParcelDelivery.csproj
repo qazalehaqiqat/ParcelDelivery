@@ -11,6 +11,7 @@
     <None Remove="Models\Entities\" />
     <None Remove="Models\Departments\" />
     <None Remove="Interfaces\" />
+    <None Remove="Factories\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
@@ -18,5 +19,6 @@
     <Folder Include="Models\Entities\" />
     <Folder Include="Models\Departments\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="Factories\" />
   </ItemGroup>
 </Project>
