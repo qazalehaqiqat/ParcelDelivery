@@ -11,7 +11,7 @@ namespace ParcelDelivery
         {
             var serializer = new XmlSerializer(typeof(Shipping));
             var shipping =
-                (Shipping)serializer.Deserialize(new XmlTextReader(@"../../../Assets/Container_68465468.xml"));
+                (Shipping)serializer.Deserialize(new XmlTextReader(@"Assets/Container_68465468.xml"));
             Console.WriteLine("{0,-25}{1,-15}{2,-10}{3,-10}{4,0}\n", "Sender", "Receipient", "Weight", "Value",
                 "Status");
 
