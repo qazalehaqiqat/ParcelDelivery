@@ -9,7 +9,7 @@ namespace ParcelDelivery.Test
         private readonly Distribution distribution = new();
 
         [Fact]
-        public void Test2()
+        public void Should_Return_Objects_Of_Heavy_And_Insurance_When_Parcel_Value_More_Than_1000_And_Weight_More_Than_10_Kg()
         {
             var sender = new User("Shell Company", new Address("Schiekade", 125, "1234", "Rotterdam"));
 
